@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* :root {
+    --set-height:
+} */
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: burlywood;
+}
+#container {
+    height: 550px;
+    width: 80%;
+    background-color: white;
+    margin: 30px auto;
+}
+
+#calculater {
+    height: 500px;
+    width: 400px;
+    margin: 0 auto;
+    position:relative;
+    top: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+    border-radius: 5px;
+}
+
+#result {
+    height: 100px;
+}
+
+#keyboard {
+    height: 400px;
+    width: 400px;
+    padding: 0 30px;
+}
+
+#history {
+    height: 20px;
+    text-align: right;
+    padding-top: 25px;
+    margin: 0px 20px;
+    font-size: 20px;
+}
+
+#output {
+    height: 30px;
+    text-align: right;
+    padding-top: 20px;
+    margin: 0px 20px;
+    font-size: 30px;
+}
+
+.number, .operator, .empty {
+    width: 50px;
+    height: 50px;
+    margin: 15px;
+    border-radius: 25px;
+    background-color: white;
+}
+
