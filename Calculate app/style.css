@@ -59,5 +59,9 @@ body {
     margin: 15px;
     border-radius: 25px;
     background-color: white;
+    font-size: 15px;
 }
-
+.number:hover, .operator:hover {
+    background-color: gray;
+    font-weight: bolder;
+}
